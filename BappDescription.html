@@ -1,0 +1,9 @@
+<p>WebAuthn CBOR is a Burp Extension to decode WebAuthn CBOR format.</p>
+
+<p>WebAuthn is a W3C Standard to support strong authentication of users. WebAuthn depends on several other specifications such as Base64url encoding, Concise Binary Object Representation (CBOR), CBOR Object Signing and Encryption (COSE) to name a few.</p>
+
+<p>Usage</p>
+<ul>
+	<li>Intercept the WebAuthn request/response using Burp proxy</li>
+	<li>If the request has a attestationObject parameter, a new Tab WebAuthn CBOR Decode will be added and the decoded CBOR format will be displayed.</li>
+</ul>

@@ -1,0 +1,13 @@
+Uuid: 36b86e134e93444596cc2675a4f0e48d
+ExtensionType: 1
+Name: WebAuthn CBOR Decoder
+RepoName: webauthn-cbor
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: Srikanth Ramu
+ShortDescription: Decodes WebAuthn CBOR format
+EntryPoint: build/libs/webauthn-cbor-burp-all-1.0.jar
+BuildCommand: ./gradlew bigJar
+SupportedProducts: Pro, Community
